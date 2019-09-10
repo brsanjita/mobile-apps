@@ -1,0 +1,86 @@
+name: store
+description: Tribe Store app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: any
+  url_launcher: any
+  image_picker: any
+  google_sign_in: any
+  cached_network_image: any
+  scoped_model: any
+  firebase_messaging: any
+  firebase_core: any
+  flutter_webview_plugin: any
+  connectivity: any
+  device_info: any
+  firebase_analytics: any
+  google_maps_flutter: any
+  share: 
+  location:
+  package_info: 
+  flutter_svg: 
+  geolocator: any
+  flutter_swiper: any
+  fluro: any
+  flutter_spinkit: any
+  qr_flutter: any
+  shimmer: any
+  pull_to_refresh: any
+  firebase_dynamic_links: any
+  #firebase_remote_config: any
+  #firebase_performance: any
+  #video_player: any
+  graphql_flutter: any
+  flutter_cupertino_date_picker: any
+  charts_flutter: any
+  common:
+    path: ../common
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/document.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+  fonts:
+     - family: Product Sans
+       fonts:
+         - asset: fonts/productsansregular.ttf

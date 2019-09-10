@@ -1,0 +1,36 @@
+name: common
+description: Tribe common components.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_statusbarcolor: any
+  provider: ^3.0.0
+  firebase_messaging: any
+  graphql_flutter: any
+  location: any
+  google_maps_flutter: any
+  image_picker: any
+  json_annotation: any
+  contacts_service: any
+  permission_handler: any
+  shared_preferences: any
+  intl: any
+  datetime_picker_formfield: any
+  device_info: any
+  pin_code_text_field: any
+  share: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
